@@ -298,7 +298,7 @@
     align-items: center;
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 330px) {
   .navbar {
     display: flex !important;
     align-items: center !important;
