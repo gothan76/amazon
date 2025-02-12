@@ -5,7 +5,7 @@ import truck from "../image/truck.png";
 import warenty from "../image/war.png";
 import cash from "../image/cash.png";
 import cup from "../image/cup.png";
-import "../components/Slick.css";
+import "../components/slick.css";
 
 const slick1 = () => {
   var settings = {
