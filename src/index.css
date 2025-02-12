@@ -412,6 +412,7 @@
   }
   hr {
     top: 90%;
+    border: 2px solid;
   }
   #specification > * {
     padding: 1%;
@@ -422,10 +423,11 @@
     top: 82%;
     margin-bottom: 5%;
   }
-  #ram {
-    top: 60% !important;
-  }
-   .sl{
+  .sl{
     top: 77%;
+    border: 2px solid;
+  }
+  #ram {
+    top: 85% !important;
   }
 }
