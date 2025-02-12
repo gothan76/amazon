@@ -1,0 +1,38 @@
+.navbar2 {
+  display: flex;
+  background-color: #022030;
+  color: white;
+  padding: 3px;
+}
+#menu {
+  /* border: 2px solid; */
+  width: 30px;
+  height: 30px;
+  border: none;
+}
+
+#ul > ul {
+  display: flex;
+}
+#ul > ul > li {
+  display: flex;
+  padding: 5px;
+  margin-left: 12px;
+}
+#ul > ul > li:hover{
+    border:2px solid ;
+}
+#div{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+#div:hover{
+    border: 2px solid;
+}
+/* media query */
+@media screen and (max-width: 1024px){
+  .navbar2{
+    display: none;
+  }
+}

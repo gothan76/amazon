@@ -1,0 +1,428 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* ipad */
+@media screen and (max-width: 1024px) and (min-width: 790px) {
+  #amazonlogo {
+    flex: 0.5 !important;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  #amazonlogo .log {
+    display: block;
+    height: 50px;
+    border-radius: 50%;
+  }
+  #input {
+    flex: 9.5 !important;
+    width: 100%;
+  }
+  .navbar #location,
+  .navbar #flag,
+  .navbar #account,
+  .navbar #order,
+  .navbar #cart,
+  .navbar #logo {
+    display: none;
+  }
+  #left #one {
+    margin-top: 30%;
+  }
+  #left {
+    margin-top: -160px;
+  }
+  #left #offer,
+  #left #slick,
+  #left #slick1 .spec {
+    margin-top: 20%;
+  }
+  #left #two {
+    margin-top: 60%;
+  }
+  #sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-top: -45px;
+  }
+}
+@media screen and (max-width: 789px) and (min-width: 650px) {
+  #amazonlogo {
+    flex: 0.5 !important;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  #amazonlogo .log {
+    display: block;
+    height: 50px;
+    border-radius: 50%;
+  }
+  #input {
+    flex: 9.5 !important;
+    width: 100%;
+  }
+  .navbar #location,
+  .navbar #flag,
+  .navbar #account,
+  .navbar #order,
+  .navbar #cart,
+  .navbar #logo {
+    display: none !important;
+  }
+  /* meee */
+  #left #one #model {
+    font-size: 1.1rem;
+  }
+  #left #two {
+    margin-bottom: 10%;
+  }
+  #left #slick,
+  #left #slick1 .spec {
+    margin-bottom: 20%;
+  }
+}
+@media screen and (max-width: 649px) and (min-width: 550px) {
+  #amazonlogo {
+    flex: 0.5 !important;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  #amazonlogo .log {
+    display: block;
+    height: 50px;
+    border-radius: 50%;
+  }
+  #input {
+    flex: 9.5 !important;
+    width: 100%;
+  }
+  .navbar #location,
+  .navbar #flag,
+  .navbar #account,
+  .navbar #order,
+  .navbar #cart,
+  .navbar #logo {
+    display: none !important;
+  }
+  #left #one #model {
+    font-size: 0.8rem;
+    margin-right: 10%;
+  }
+  #left #one > * {
+    margin-right: 35%;
+  }
+  #ratings > * {
+    margin-right: 1.3% !important;
+  }
+  #left #slick {
+    margin-right: 2%;
+  }
+  #whole {
+    width: 35vw !important;
+    margin-top: 10% !important;
+  }
+  #left #two {
+    margin-top: -15%;
+    margin-right: 8%;
+  }
+  #left #slick,
+  #left #slick1 .spec {
+    margin-bottom: 20%;
+  }
+}
+/* mobile responsive */
+@media screen and (max-width: 549px) {
+  #amazonlogo {
+    flex: 0.5 !important;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  #amazonlogo .log {
+    display: block;
+    height: 50px;
+    border-radius: 50%;
+  }
+  #input {
+    flex: 9.5 !important;
+    width: 100% !important;
+  }
+  .navbar #location,
+  .navbar #flag,
+  .navbar #account,
+  .navbar #order,
+  .navbar #cart,
+  .navbar #logo {
+    display: none !important;
+  }
+  #left {
+    margin-top: 100%;
+    position: relative;
+    right: 100px;
+  }
+  #left #one #model {
+    font-size: 1.3rem;
+    width: 90vw;
+    position: relative;
+    right: 220px;
+  }
+  #left #one #ratings {
+    position: relative;
+    width: 380px;
+    right: 220px;
+    font-size: large;
+  }
+  #one #para,
+  #one #rh,
+  #ram,
+  .sl1,
+  .sl {
+    position: relative;
+    right: 220px;
+  }
+  #one #rh,
+  #ram,
+  .sl1,
+  .sl {
+    width: 500px;
+  }
+  #ram,
+  .sl1,
+  .sl {
+    bottom: 75px;
+  }
+  #hover {
+    order: 1;
+  }
+  #hover img {
+    width: 500px;
+  }
+  #imagelist {
+    order: 2;
+    gap: 10px;
+    position: relative;
+    top: 390px;
+    left: -340px;
+    rotate: 270deg;
+  }
+  #imagelist img {
+    rotate: 90deg;
+  }
+  #dwn {
+    position: absolute;
+    top: 4px;
+    right: -400px;
+  }
+  #left #two,
+  #offer,
+  #slick,
+  #slick1,
+  .spec,
+  #sidebar > * {
+    position: relative;
+    bottom: 80px;
+    right: 220px;
+    width: 500px;
+  }
+  #left #two > * {
+    font-size: large;
+  }
+  #slick,
+  #slick1 {
+    height: 115px;
+    font-size: large;
+  }
+  .spec {
+    position: relative;
+    top: 80%;
+    right: 220px;
+  }
+  #abt ul li,
+  #table h6,
+  #stoch .kd,
+  #sidebar > * {
+    font-size: large;
+  }
+  #sidebar {
+    margin-top: 407%;
+    position: absolute;
+  }
+  #sidebar > * {
+    right: 410px;
+  }
+  #sidebar .par111 {
+    position: relative;
+    width: 100px;
+    white-space: nowrap;
+  }
+  #sidebar #par,
+  #sidebar .pg {
+    font-size: small;
+  }
+  #sidebar #form #btns,
+  #sidebar #form {
+    width: 70%;
+  }
+  #sidebar {
+    border: none !important;
+    overflow-x: clip;
+    max-width: 100%;
+    white-space: nowrap;
+  }
+  #sidebar > * {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  #sidebar {
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+  #sidebar {
+    position: relative;
+    margin-top: 20px;
+    overflow: hidden;
+    max-width: 100%;
+    white-space: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 360px) {
+  .navbar {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 165% !important;
+    padding: 10px !important;
+    background-color: #232f3e !important;
+  }
+
+  /* Logo should take 10% of the navbar */
+  #amazonlogo {
+    flex: 1 !important; /* 10% */
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    max-width: 10%;
+  }
+
+  #amazonlogo .log {
+    height: 40px !important;
+    border-radius: 50%;
+    width: 100%;
+  }
+
+  /* Search bar should take 90% */
+  #input {
+    flex: 9 !important; /* 90% */
+    width: 90% !important;
+    padding: 5px !important;
+  }
+
+  /* Hide extra icons */
+  .navbar #location,
+  .navbar #flag,
+  .navbar #account,
+  .navbar #order,
+  .navbar #cart {
+    display: none !important;
+  }
+  #left {
+    position: relative;
+    left: 30%;
+    bottom: -8%;
+  }
+  #left #one #model,
+  #left #one #ratings {
+    position: relative;
+    font-size: 1.2rem;
+    top: 65%;
+    padding: 5px;
+  }
+  #two h5,
+  #two #emi,
+  #two #discount {
+    margin-top: 5%;
+    font-size: 0.5em;
+    padding: 0.5%;
+  }
+  #one #model>*{
+    width: 135%;
+    padding: 5px;
+    font-size: larger;
+  }
+  #two #ltd {
+    margin-top: 10%;
+
+    padding: 2.8%;
+    font-size: large;
+    border-radius: 15px;
+  }
+  #one #para {
+    top: 55%;
+    width: 13rem;
+    padding: 5px;
+  }
+  #two,
+  #slick,
+  #offer,
+  #slick1 {
+    padding: 15%;
+    font-size: 3rem;
+    top: 60%;
+  }
+  #slick .cont h5,
+  #slick .cont .p {
+    font-size: 1.3rem;
+    top: 20%;
+  }
+
+  #slick1 > * {
+    top: 40%;
+  }
+  #slick1 a {
+    padding: 1%;
+    font-size: 1rem !important;
+  }
+  #two {
+    width: 5rem;
+    top: 200px;
+  }
+  #slick a,
+  #slick1 a {
+    font-size: x-large;
+  }
+  #offer img,
+  #slick1 img {
+    width: 3rem !important;
+    height: 3rem !important;
+  }
+  #rh {
+    position: relative;
+    top: 58%;
+  }
+  hr {
+    top: 75%;
+  }
+  #specification > * {
+    padding: 1%;
+    margin: 1%;
+    font-size: 2rem;
+  }
+  .sl1 {
+    top: 82%;
+    margin-bottom: 5%;
+  }
+  #ram {
+    top: 60% !important;
+  }
+}

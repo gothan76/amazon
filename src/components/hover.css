@@ -1,0 +1,51 @@
+#whole {
+  margin-top: 1.5%;
+  display: flex;
+  width: 40vw;
+  height: auto;
+  margin-left: 1.5%;
+  position: sticky;
+  top: 0px;
+  align-items: flex-start;
+}
+#imagelist {
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+}
+#imagelist img {
+  width: 40px;
+  height: 50px;
+  margin: 10px;
+  padding: 4px 0;
+  border: 1px solid rgb(44, 43, 43);
+  border-radius: 6px;
+  cursor: pointer;
+}
+#imagelist img:hover {
+  border: 2.5px solid rgb(70, 70, 186);
+}
+#hover {
+  display: flex;
+  flex: 1;
+  margin: 15% 0px 0px 1%;
+}
+#hover img {
+  flex: 1;
+  height: fit-content;
+}
+#dwn {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  width: 40vw;
+  position:absolute;
+  justify-content: flex-end;
+  margin-top: 2%;
+}
+#down {
+  width: 24px;
+  height: 22px;
+  margin-right: 1.5%;
+  cursor: pointer;
+}

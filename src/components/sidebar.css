@@ -1,0 +1,98 @@
+#sidebar {
+  border: 1px solid;
+  width: 17%;
+  margin-left: 80%;
+  position: absolute;
+  top: 20%;
+  padding: 1%;
+}
+#sidebar #amazon {
+  height: 1.2rem;
+  width: 4.2rem;
+  margin: 2% 0px;
+}
+#sidebar a {
+  color: #439fb4;
+}
+#sidebar a:hover {
+  color: #365991;
+}
+#loca {
+  width: 15px;
+  height: 15px;
+  margin-right: 2%;
+  margin-top: 5%;
+}
+.par {
+  font-size: 0.9rem;
+  margin-bottom: 3%;
+}
+.pg {
+  text-decoration: underline;
+}
+#stk {
+  margin: 4% 0px 2% 0px;
+}
+#stock {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 7%;
+  margin-top: 5%;
+}
+#form input {
+  margin-right: 2%;
+}
+#stock .kd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 5%; */
+  padding-bottom: 4%;
+}
+#stock .kd a {
+  text-align: left;
+  flex: 1;
+  font-size: 0.9rem;
+}
+#stock .kd h6 {
+  flex: 1;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+#add {
+  margin-bottom: 5%;
+  font-size: medium;
+}
+#btns {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+}
+#btns button {
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 6%;
+  width: 70%;
+  cursor: pointer;
+}
+#btns #crt {
+  background-color: #f0e109e1;
+}
+#btns #crt:hover {
+  background-color: #ffee00e1;
+}
+#btns #buy {
+  background-color: #f2822c;
+}
+#btns #buy:hover {
+  background-color: #f9a11d;
+}
+#gift {
+  margin-right: 3%;
+  margin-bottom: 7%;
+}
+#box {
+  padding: 4%;
+  width: 65%;
+  border-radius: 10px;
+}
